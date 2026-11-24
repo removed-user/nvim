@@ -2,6 +2,10 @@
 8-bit:  256-color 
 24-bit: truecolor
 
+## Terminal Emulator Standards
+`https://github.com/termstandard/colors/blob/master/README.md`
+
+
 termguicolors
 
 "Awesome Neovim Colors": 
