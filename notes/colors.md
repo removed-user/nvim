@@ -2,10 +2,22 @@
 8-bit:  256-color 
 24-bit: truecolor
 
+termguicolors
+
+"Awesome Neovim Colors": 
+`https://www.trackawesomelist.com/rockerBOO/awesome-neovim/readme/`
+"Awesome Vim Colors": 
+`https://github.com/rafi/awesome-vim-colorschemes`
+"neovim-colorscheme":`https://github.com/topics/neovim-colorscheme`
+"vim-colorscheme": 
+`https://github.com/topics/vim-colorscheme`
+
+
+
+
 
 ### Minimal example
 > Auto set termguicolors
-
 ```lua
 local function supports_truecolor()
   local term = vim.env.TERM or ""
