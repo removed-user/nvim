@@ -34,9 +34,9 @@ local function setup(opts)
       string.format("[vrequire] Global '_G.%s' already exists; skipping registration.", name),
       vim.log.levels.WARN
     )
--- vim.notify("HINT: use `force = true` to override", vim.log.levels.WARN)
+-- vim.notify("HINT: use `force = true` to override globals", vim.log.levels.WARN)
 
-globals
+
     return
   end
 
