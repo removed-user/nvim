@@ -44,13 +44,7 @@ end
 return { setup = setup }
 ```
 
-
-
-
-
-
-```
-# HOW USE???
+### HOW USE???
 
 ```
 -- Default name (_G.vrequire)
