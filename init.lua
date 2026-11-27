@@ -76,4 +76,5 @@ vim.g.no_plugin_maps = true
 -- Set to true if you have a Nerd Font installed and selected in the terminal
 vim.g.have_nerd_font = false
 
+nviminit = debug.getinfo(1, 'S').source:gsub('^@', '')
 require 'init.core'
