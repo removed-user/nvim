@@ -26,11 +26,17 @@ local function setup(opts)
   local name = opts.name or "vrequire"
   local validator_mod = opts.validator or "your_validator"
 
+  local replace_require = opts.replace_require 
+
+
   if _G[name] ~= nil and not opts.force then
     vim.notify(
       string.format("[vrequire] Global '_G.%s' already exists; skipping registration.", name),
       vim.log.levels.WARN
     )
+-- vim.notify("HINT: use `force = true` to override", vim.log.levels.WARN)
+
+globals
     return
   end
 
